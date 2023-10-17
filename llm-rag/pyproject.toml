@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "llm-rag"
+version = "0.1.0"
+description = ""
+authors = ["jghiya <Jay_Ghiya@intuit.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.315"
+openai = "^0.28.1"
+tiktoken = "^0.5.1"
+chromadb = "^0.4.14"
+gitpython = "^3.1.37"
+gpt4all = "^1.0.12"
+sentence-transformers = "^2.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
